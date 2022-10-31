@@ -1,0 +1,1 @@
+echo -e "if has ('mouse')\n\tset mouse-=a\nendif" > ~/.vimrc
