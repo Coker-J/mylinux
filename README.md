@@ -1,14 +1,18 @@
 # 一键acme证书申请
 基于acme的傻瓜式证书申请脚本，使用80端口，无需邮箱，API
 
+#acme+x-ui
+```
+
+```
+
 #一键acme证书申请:
 ```
 wget https://raw.githubusercontent.com/Coker-J/acme/main/acme.sh && chmod +x ./acme.sh &&  . ./acme.sh
 ```
 
-#vim右键粘贴:
+#vim右键粘贴(putty):
 
-使得putty中的vim可右键粘贴
 ```
 echo -e "if has ('mouse')\n\tset mouse-=a\nendif" > ~/.vimrc
 ```
