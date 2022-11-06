@@ -10,4 +10,5 @@ wget https://raw.githubusercontent.com/Coker-J/acme/main/acme.sh && chmod +x ./a
 
 使得putty中的vim可右键粘贴
 ```
+echo -e "if has ('mouse')\n\tset mouse-=a\nendif" > ~/.vimrc
 ```
