@@ -3,7 +3,7 @@
 
 #acme+x-ui
 ```
-
+wget https://raw.githubusercontent.com/Jerry-Young-23/x-ui/main/x-ui.sh && chmod +x ./x-ui.sh && . ./x-ui.sh
 ```
 
 #一键acme证书申请:
