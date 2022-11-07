@@ -3,7 +3,7 @@
 
 #acme+x-ui
 ```
-https://raw.githubusercontent.com/Coker-J/mylinux/main/x-ui.sh && chmod +x ./x-ui.sh && . ./x-ui.sh
+wget https://raw.githubusercontent.com/Coker-J/mylinux/main/x-ui.sh && chmod +x ./x-ui.sh && . ./x-ui.sh
 ```
 
 #一键acme证书申请:
