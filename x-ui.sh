@@ -1,7 +1,7 @@
 
 timedatectl set-timezone Asia/Shanghai
 sed -i 's/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/' /etc/gai.conf  
-apt update -y; apt install curl -y
+apt update -y; apt install curl -y; apt install iptables -y
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 
 apt install socat;curl https://get.acme.sh | sh -s email=12345@qq.com
